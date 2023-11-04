@@ -1,3 +1,4 @@
+// изменить
 import Zodiac from "../../screens/Zodiac";
 import { useState, useRef,useEffect} from 'react';
 import * as React from 'react';
