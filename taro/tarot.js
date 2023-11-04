@@ -1,3 +1,4 @@
+//
 export const TARO_INF = {
     "description": "tarot cards and basic information about them, as well as references to corresponding scans",
     "cards": [
