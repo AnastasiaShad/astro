@@ -103,7 +103,7 @@ const Register = ({ navigation })=> {
             hour: hour, 
             min: min
         }
-        console.log("3", parseInt("123"))
+        //console.log("3", parseInt("123"))
 
         
         signUp(USER_VER2);

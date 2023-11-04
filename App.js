@@ -30,7 +30,7 @@ export const Splash = () => (
 );
 const AuthStack = createStackNavigator();
 const AuthStackScreen = ({userToken2}) => {
-  console.log("2", userToken2)
+  //console.log("2", userToken2)
   return (
   <AuthStack.Navigator screenOptions={{
     headerStyle: {
@@ -87,7 +87,7 @@ const ZodiacStackScreen = ({userData}) => (
 
 const Tabs = createBottomTabNavigator();
 const TabsScreen = ({ infUser }) => {
-  console.log("1", infUser);
+
   return (
   
   
@@ -144,7 +144,7 @@ const TabsScreen = ({ infUser }) => {
 const RootStack = createStackNavigator();
 const RootStackScreen = ({ userToken }) => {
   
-  console.log(userToken)
+  //console.log(userToken)
   return (
   <RootStack.Navigator  screenOptions={{
     headerStyle: {
